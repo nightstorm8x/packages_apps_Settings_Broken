@@ -16,21 +16,33 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
     <PreferenceScreen android:layout="@layout/brokenabout" android:key="od_brokenabout" />
 
-<!-- Broken OTA -->
-<PreferenceScreen
+    <!-- Broken OTA -->
+    <PreferenceScreen
        android:key="brokenota"
        android:title="@string/brokenota_title" >
        <intent
            android:action="android.intent.action.MAIN"
            android:targetPackage="com.fusionjack.brokenota"
            android:targetClass="com.fusionjack.brokenota.MainActivity" />
-</PreferenceScreen>
+    </PreferenceScreen>
 
-        <!-- Change Log -->
-<PreferenceScreen android:key="changelog"
+    <!-- Change Log -->
+    <PreferenceScreen android:key="changelog"
         android:title="@string/changelog_title"
         android:summary="@string/changelog_title_summary"
         android:fragment="com.android.settings.broken.ChangeLog" />
+
+    <PreferenceScreen android:title="Google+">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://plus.google.com/u/0/communities/116521990967962635243" />
+    </PreferenceScreen>
+
+    <PreferenceScreen android:title="Website">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://dysfunctionalroms.net/" />
+    </PreferenceScreen>
 
     <!-- Device Maintainers -->
     <PreferenceCategory
