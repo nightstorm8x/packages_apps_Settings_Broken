@@ -15,13 +15,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 	
-	<!-- General strings -->
+    <!-- General strings -->
     <string name="ok">OK</string>
     <string name="ok_string">OK</string>
     <string name="reset">Reset</string>
     <string name="reset_title">Reset</string>
-	<string name="reset_message">Reset values</string>
-	<string name="reset_paranoid">Broken</string>
+    <string name="reset_message">Reset values</string>
+    <string name="reset_paranoid">Broken</string>
     <string name="reset_android">Android</string>
     <string name="reset_string">Reset</string>
     <string name="help">Help</string>
@@ -1051,9 +1051,6 @@
     <string name="recent_app_sidebar_label_color_title">Label color</string>
     <string name="recent_app_sidebar_bg_color_title">Background color</string>
     <string name="recent_app_sidebar_scale_title">Size</string>
-    
-    <!--Embedded Viper4Android-->
-    <string name="viper_settings_title">Equalizer</string>
     
     <!-- Change Log -->
     <string name="changelog_title">Changelog</string>
